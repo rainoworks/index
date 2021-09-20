@@ -1,31 +1,139 @@
 <html>
     <head>
     <title>Raino's Portfolio</title>
-    <link rel="stylesheet" href="http://127.0.0.1:8000/css/common.css">
+    <link rel="stylesheet" href="style.css">
     </head>
-
 <body>
     <div class="section-left">
 <h1>Raino's Portfolio</h1>
 <div class="left-menu">
     <div class="menu">
         <ul>
-            <li>Main</li>
-            <li>Service</li>
-            <li>About</li>
+            <a href="#PROFILE"><li>PROFILE</li></a>
+            <a href="#SKILLS"><li>SKILLS</li></a>
         </ul>  
     </div>
 </div>
-</div>        <div class="section-main">
-<h2>Original service</h2>
-    <div class="main-menu">
-        <ul>
-            <li>aaaaaaaaaaaaaaa</li>
-            <li>aaaaaaaaaaaaaaa</li>
-            <li>aaaaaaaaaaaaaaa</li>
-            <li>aaaaaaaaaaaaaaa</li>
-        </ul>
+</div>        
+<div class="section-main">
+    <scroll-container>
+    <a name="PROFILE"><h1 class="profile_ico">PROFILE</h1></a>
+    <div class="main-about">
+        <div class="icon">
+            <img src="icon.png" width="25%" alt="アイコン">
+        </div>
+        <div class="text_info">
+            <p>Name: Raino</p>
+            <p>趣味: 料理、旅行巡り</p>
+        </div>
+        <div class="about_info">
+            <h3>主な職歴</h3>
+        </div>
+        <div class="text_info">
+            <p>18~20歳 情報系専門学校に在学し卒業</p>
+            <p>20~21歳 新卒でSier企業に就職</p>
+            <p>22~25歳 WEB企業に転職し、プログラマーとして活動中</p>
+        </div>
     </div>
+    <a name="SKILLS"><h1 class="skill_ico">SKILLS</h1></a>
+    <div class="main-skills">
+        <h2>フロントエンドスキル</h2>
+        <table>
+            <tr>
+              <th>スキル</th>
+              <th>経験年数</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>3年</td>
+            </tr>
+            <tr>
+              <td>CSS(stylus)</td>
+              <td>3年</td>
+            </tr>
+            <tr>
+              <td>Javascript</td>
+              <td>3年</td>
+            </tr>
+        </table>
+    </div>
+    <div class="main-skills">
+        <h2>バックエンドスキル</h2>
+        <table>
+            <tr>
+              <th>スキル</th>
+              <th>経験年数</th>
+            </tr>
+            <tr>
+              <td>PHP</td>
+              <td>3年</td>
+            </tr>
+            <tr>
+                <td>PHP(FuelPHP)</td>
+                <td>2年</td>
+            </tr>
+            <tr>
+                <td>PHP(Laravel)</td>
+                <td>1年</td>
+            </tr>
+        </table>
+    </div>
+    <div class="main-skills">
+        <h2>AWS</h2>
+        <table>
+            <tr>
+              <th>スキル</th>
+              <th>経験年数</th>
+            </tr>
+            <tr>
+                <td>DynamoDB</td>
+                <td>1年</td>
+            </tr>
+            <tr>
+                <td>Lambda</td>
+                <td>1年</td>
+            </tr>
+            <tr>
+                <td>codecommit</td>
+                <td>1年</td>
+            </tr>
+            <tr>
+                <td>RDS</td>
+                <td>1年</td>
+            </tr>
+        </table>
+    </div>
+    <div class="main-skills">
+        <h2>DB</h2>
+        <table>
+            <tr>
+              <th>スキル</th>
+              <th>経験年数</th>
+            </tr>
+            <tr>
+                <td>Mysql</td>
+                <td>2年</td>
+            </tr>
+        </table>
+    </div>
+    <div class="main-skills">
+        <h2>コミュニケーションツール・その他</h2>
+        <table>
+            <tr>
+              <th>スキル</th>
+              <th>経験年数</th>
+            </tr>
+            <tr>
+                <td>slack</td>
+                <td>1年</td>
+            </tr>
+            <tr>
+                <td>backlog</td>
+                <td>1年</td>
+            </tr>
+        </table>
+    </div>
+    </scroll-container>
 </div>
 <div class="section-footer">
     <div class="copyright">

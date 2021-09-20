@@ -34,11 +34,13 @@ body {
   }
   .section-main {
     width: 50%;
-    height: 100%;
     margin: auto;
     padding-top: 5px;
   }
-  .section-main h2 {
+  .section-main .main-about {
+      background-color: #fff;
+  }
+  .section-main h1 {
     text-align: center;
   }
   .section-main ul {
@@ -61,5 +63,73 @@ body {
     font-size: 20px;
     text-align: right;
   }
+  .main-about .icon {
+    text-align: center;
+  }
+
+  .main-about .about_info {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .main-about .text_info {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  .main-skills {
+     text-align: center;
+     background-color: #fff;
+     margin-top: 20px;
+  }
+
+  .main-skills table{
+    width: 100%
+  }
+
+  .main-skills table td{
+    margin: 20px;
+    text-align: center;
+  }
+
+  .main-skills table tr{
+    text-align: center;
+  }
+
+  body {
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+scroll-container {
+  scroll-behavior: smooth;
+}
+
+.profile_ico::before{
+  content: "";
+  background-image:url(ico_profile.jpeg);
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.skill_ico::before{
+  content: "";
+  background-image:url(ico_skill.jpeg);
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
   
   
